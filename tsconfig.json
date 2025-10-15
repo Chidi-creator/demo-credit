@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "rootDir": "src",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "database/*": ["src/database/*"],
+      "@models/*": ["src/models/*"],
+      "@global/*": ["src/global/*"],
+      "@service/*": ["src/service/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@handlers/*": ["src/handlers/*"],
+      "@usecases/*": ["src/usecases/*"],
+      "@routes/*": ["src/routes/*"],
+      "@managers/*": ["src/managers/*"],
+      "@utils/*": ["src/utils/*"],
+      "@validation/*": ["src/validation/*"],
+      "@providers/*": ["src/providers/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
