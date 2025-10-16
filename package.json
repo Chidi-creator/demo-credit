@@ -4,7 +4,12 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon",
-    "build": "tsc"
+    "build": "tsc",
+    "migrate:make": "knex migrate:make --knexfile knexfile.ts",
+    "migrate:latest": "knex migrate:latest --knexfile knexfile.ts",
+    "migrate:rollback": "knex migrate:rollback --knexfile knexfile.ts",
+    "migrate:status": "knex migrate:status --knexfile knexfile.ts",
+    "seed:banks": "ts-node -r tsconfig-paths/register src/db/seeds/seed-banks.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +17,7 @@
   "description": "",
   "dependencies": {
     "@types/joi": "^17.2.2",
+    "axios": "^1.12.2",
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",

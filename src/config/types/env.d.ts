@@ -5,5 +5,6 @@ export interface EnvConfig {
         DB_NAME: string;
         DB_PORT: number;
         PORT: number;
+        FLUTTERWAVE_SECRET_KEY: string;
        
 }

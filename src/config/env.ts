@@ -9,5 +9,6 @@ export const env: EnvConfig = {
     DB_PASSWORD: process.env.DB_PASSWORD as string,
     DB_NAME: process.env.DB_NAME as string,
     DB_PORT: Number(process.env.DB_PORT),
-    PORT: Number(process.env.PORT) ,
+    PORT: Number(process.env.PORT),
+    FLUTTERWAVE_SECRET_KEY: process.env.FLUTTERWAVE_SECRET_KEY as string,
 }
