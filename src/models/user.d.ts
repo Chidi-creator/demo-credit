@@ -1,10 +1,9 @@
-export interface IUser {
-    id?: number;
-    email: string;
-    first_name: string;
-    last_name: string;
-    password: string;
-    deleted_at?: Date | null;
-    created_at: Date;
-    updated_at: Date;
+import { BaseEntity } from "./base";
+
+export interface IUser extends BaseEntity {
+  email: string;
+  first_name: string;
+  last_name: string;
+  password: string;
+  deleted_at?: Date | null;
 }

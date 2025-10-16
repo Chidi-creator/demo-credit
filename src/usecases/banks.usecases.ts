@@ -24,3 +24,5 @@ class BanksUseCases {
     return await this.bankRepository.findOneByQuery({ bank_code: bankCode });
   }
 }
+
+export default BanksUseCases;
