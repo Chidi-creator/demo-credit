@@ -1,23 +1,35 @@
+import { NodeMailerConfigType } from "@providers/types/email";
+import { env } from "./env";
+
 export enum TRANSACTION_TYPE {
-    FUND = "fund",
-    WITHDRAW = "withdraw",
-    TRANSFER = "transfer",
-    REVERSAL = "reversal"
+  FUND = "fund",
+  WITHDRAW = "withdraw",
+  TRANSFER = "transfer",
+  REVERSAL = "reversal",
 }
 
 export enum TRANSACTION_DIRECTION {
-    CREDIT = "credit",
-    DEBIT = "debit"
+  CREDIT = "credit",
+  DEBIT = "debit",
 }
 
 export enum TRANSACTION_STATUS {
-    PENDING = "pending",
-    COMPLETED = "completed",
-    FAILED = "failed",
+  PENDING = "pending",
+  COMPLETED = "completed",
+  FAILED = "failed",
 }
 
 export enum WALLET_STATUS {
-    ACTIVE = "active",
-    INACTIVE = "inactive",
-    SUSPENDED = "suspended",
+  ACTIVE = "active",
+  INACTIVE = "inactive",
+  SUSPENDED = "suspended",
 }
+export const nodeMailerConfig: NodeMailerConfigType = {
+  host: env.MAIL_HOST,
+  port: env.MAIL_PORT,
+  secure: env.MAIL_SECURE,
+  auth: {
+    user: env.MAIL_USER,
+    pass: env.MAIL_PASS,
+  },
+};

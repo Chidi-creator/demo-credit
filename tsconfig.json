@@ -19,7 +19,7 @@
       "@db/*": ["src/db/*"],
       "@models/*": ["src/models/*"],
       "@global/*": ["src/global/*"],
-      "@service/*": ["src/service/*"],
+      "@services/*": ["src/services/*"],
       "@middleware/*": ["src/middleware/*"],
       "@repositories/*": ["src/repositories/*"],
       "@handlers/*": ["src/handlers/*"],
@@ -28,7 +28,8 @@
       "@managers/*": ["src/managers/*"],
       "@utils/*": ["src/utils/*"],
       "@validation/*": ["src/validation/*"],
-      "@providers/*": ["src/providers/*"]
+      "@providers/*": ["src/providers/*"],
+      "@deliverymen/*": ["src/deliverymen/*"]
     }
   },
   "include": ["src/**/*"],

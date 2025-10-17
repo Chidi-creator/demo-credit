@@ -2,22 +2,31 @@ import Middleware from "./middleware";
 import express from "express";
 import cors from "cors";
 import passport from "passport";
-import { set } from "mongoose";
+import AuthRouter from "@deliverymen/auth.delivery";
+import VerificationRouter from "@deliverymen/verification.delivery";
+import requestLogger from "@middleware/logger.middleware";
+
 
 const middleware = new Middleware(express());
 
 const setUpRoutes = (middleware: Middleware) => {
-  middleware.addMiddleware(
-    "/healthcheck",
-    (req: express.Request, res: express.Response) => {
-      res.status(200).send("Demo Credit Server is up and running!");
-    }
-  );
+  //healthcheck route
+  middleware.addMiddleware("/healthcheck", (req, res) => {
+    res.status(200).send("Demo Credit Server is up and running!");
+  });
+
+
+  middleware.addMiddleware("/auth", AuthRouter);
+  middleware.addMiddleware("/verification", VerificationRouter);
 };
 
 const setUpMiddleware = () => {
   middleware.addMiddleware(cors());
   middleware.addMiddleware(express.json());
+  
+  // Add request logging middleware
+  middleware.addMiddleware(requestLogger);
+  
   middleware.addMiddleware(passport.initialize());
 
   setUpRoutes(middleware);

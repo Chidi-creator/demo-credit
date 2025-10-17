@@ -1,6 +1,6 @@
 import axios from "axios";
 import { env } from "@config/env";
-import BanksUseCases from "@usecases/banks.usecases";
+import BanksUseCases from "@usecases/bank.usecase";
 
 interface FlutterwaveBank {
   id: number;
