@@ -47,7 +47,6 @@ class AuthHandler {
       const valid = await this.authService.validateOTP(body.email, body.otp);
       const validateDuration = Date.now() - validateStartTime;
       
-      logger.logPerformance('Validate OTP', validateDuration);
       
       if (!valid) {
         logger.logAuth('VALIDATE_OTP', body.email, false);
@@ -60,8 +59,10 @@ class AuthHandler {
       let user = await this.userUseCase.getUserByEmail(body.email);
       if (!user) {
         // Create new user if doesn't exist
+        logger.info(`Creating new user for email: ${body.email}`);
         const userId = await this.userUseCase.createUser({
           email: body.email,
+
         });
 
         user = await this.userUseCase.getUserById(userId);

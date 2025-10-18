@@ -154,3 +154,437 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 08:14:43"}
 {"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 08:14:44"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 08:14:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 11:08:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 11:08:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 11:08:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 11:08:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:14:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 11:14:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 11:14:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 3705ms","timestamp":"2025-10-18 11:14:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:14:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Validate OTP took 237ms","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - FAILED","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - tyler.igwe@gmail.com - FAILED","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for tyler.igwe@gmail.com","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:15:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Validate OTP took 603ms","timestamp":"2025-10-18 11:15:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 11:15:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 11:15:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 11:16:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 1, Can Onboard: true","timestamp":"2025-10-18 11:16:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 11:16:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 11:21:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 11:21:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 11:21:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 11:21:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:30:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:30:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:30:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:30:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:32:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:32:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:32:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:32:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:32:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:32:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:32:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:32:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 19:33:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 19:33:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 19:33:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 2986ms","timestamp":"2025-10-18 19:33:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 19:33:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 19:33:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 19:33:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 19:33:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 19:33:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:34:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 19:34:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 2, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 2 - Unknown column 'bvn' in 'field list'","timestamp":"2025-10-18 19:34:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:34:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 401","timestamp":"2025-10-18 19:34:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:39:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:39:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:39:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:39:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:39:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 2, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `user_bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 2 - Unknown column 'phone_number' in 'field list'","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 400","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:52:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:52:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:52:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:52:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:52:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 19:52:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 2, Can Onboard: true","timestamp":"2025-10-18 19:52:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:52:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 400","timestamp":"2025-10-18 19:52:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:56:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:56:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:56:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:56:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:57:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 19:57:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 2, Can Onboard: true","timestamp":"2025-10-18 19:57:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:57:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 19:57:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 19:58:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 19:58:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 19:58:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 19:58:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:58:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 19:58:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 2, Can Onboard: true","timestamp":"2025-10-18 19:58:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 19:58:51"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 19:58:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:00:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:00:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:01:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:01:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:01:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:01:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:05:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:05:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:05:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:05:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:06:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:06:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:06:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:06:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:07:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:07:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:07:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:07:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:07:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:07:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:07:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 20:08:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 20:08:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4516ms","timestamp":"2025-10-18 20:08:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:08:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:08:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:09:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:09:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:09:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:09:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:09:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 20:09:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:09:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:10:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:10:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:10:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 20:10:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 2, Can Onboard: true","timestamp":"2025-10-18 20:10:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:10:23"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 20:10:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:12:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:12:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:12:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:12:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:12:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 2 with KYC response and creating wallet.","timestamp":"2025-10-18 20:12:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 2, Can Onboard: true","timestamp":"2025-10-18 20:12:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:12:33"}
+{"level":"\u001b[31merror\u001b[39m","message":"Failed to start server","timestamp":"2025-10-18 20:15:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:21:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:21:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:21:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:21:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:22:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:22:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:22:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:22:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:22:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 20:22:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 20:22:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 3751ms","timestamp":"2025-10-18 20:22:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:22:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:23:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 20:23:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 20:23:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:23:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:24:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 3 with KYC response and creating wallet.","timestamp":"2025-10-18 20:24:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 3 updated and wallet creation successful.","timestamp":"2025-10-18 20:24:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 3, Can Onboard: true","timestamp":"2025-10-18 20:24:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:24:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 20:26:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:26:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4019ms","timestamp":"2025-10-18 20:26:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:26:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:28:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 20:28:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:28:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4288ms","timestamp":"2025-10-18 20:28:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:28:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:29:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:29:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:29:09"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:29:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:29:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 20:29:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 20:29:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 20:29:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 20:29:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:29:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 20:30:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:30:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4006ms","timestamp":"2025-10-18 20:30:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:30:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:30:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:30:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:30:32"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:30:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:30:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:30:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:30:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:30:53"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:30:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:30:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:31:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 20:31:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:31:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 3253ms","timestamp":"2025-10-18 20:31:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:31:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - emperorferdy@gmail.com - FAILED","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:32:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 20:32:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:32:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 2958ms","timestamp":"2025-10-18 20:32:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:32:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:32:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 20:32:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: emperorferdy@gmail.com","timestamp":"2025-10-18 20:32:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 20:32:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:32:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 4 with KYC response and creating wallet.","timestamp":"2025-10-18 20:32:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 4, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `user_bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 4 - Duplicate entry '07123456789' for key 'users.users_phone_number_unique'","timestamp":"2025-10-18 20:32:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 20:32:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 4","timestamp":"2025-10-18 20:32:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 22:59:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 22:59:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 22:59:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 22:59:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 22:59:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 22:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 22:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4575ms","timestamp":"2025-10-18 22:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 22:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:00:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:00:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 23:00:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:00:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:00:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 5 with KYC response and creating wallet.","timestamp":"2025-10-18 23:00:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 5 updated and wallet creation successful.","timestamp":"2025-10-18 23:00:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 5, Can Onboard: true","timestamp":"2025-10-18 23:00:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:00:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:03:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 23:03:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 23:03:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4095ms","timestamp":"2025-10-18 23:03:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:03:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:03:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 23:03:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: emperorferdy@gmail.com","timestamp":"2025-10-18 23:03:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:03:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:04:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 6 with KYC response and creating wallet.","timestamp":"2025-10-18 23:04:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 6 updated and wallet creation successful.","timestamp":"2025-10-18 23:04:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 6, Can Onboard: true","timestamp":"2025-10-18 23:04:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:04:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:15:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:15:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:19:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:19:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:19:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:19:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:20:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:20:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:20:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:20:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:20:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-18 23:21:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 23:21:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 5793ms","timestamp":"2025-10-18 23:21:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:21:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:21:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-18 23:21:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: emperorferdy@gmail.com","timestamp":"2025-10-18 23:21:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:21:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:21:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 7 with KYC response and creating wallet.","timestamp":"2025-10-18 23:21:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 7 updated and wallet creation successful.","timestamp":"2025-10-18 23:21:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 7, Can Onboard: true","timestamp":"2025-10-18 23:21:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:21:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:25:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:25:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:41:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:41:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:41:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:41:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:45:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 23:45:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:45:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4105ms","timestamp":"2025-10-18 23:45:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:45:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:45:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:45:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 23:45:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:45:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:46:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 8 with KYC response and creating wallet.","timestamp":"2025-10-18 23:46:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 8 updated and wallet creation successful.","timestamp":"2025-10-18 23:46:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 8, Can Onboard: true","timestamp":"2025-10-18 23:46:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:46:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:52:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:52:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:52:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:52:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:54:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 23:54:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:54:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 5224ms","timestamp":"2025-10-18 23:54:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:54:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:55:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:55:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 23:55:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:55:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:55:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 9 with KYC response and creating wallet.","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating wallet for user ID: 9","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Wallet creation data:","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave createWallet URL:","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave API Key (masked):","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave request payload:","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave request headers:","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 9 updated and wallet creation successful.","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 9, Can Onboard: true","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:55:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave response status:","timestamp":"2025-10-18 23:55:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Flutterwave response data:","timestamp":"2025-10-18 23:55:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 23:58:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 23:58:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 23:58:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 23:58:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:58:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-18 23:58:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:58:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4402ms","timestamp":"2025-10-18 23:58:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:58:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:59:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-18 23:59:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-18 23:59:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-18 23:59:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:59:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 10 with KYC response and creating wallet.","timestamp":"2025-10-18 23:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 10 updated and wallet creation successful.","timestamp":"2025-10-18 23:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 10, Can Onboard: true","timestamp":"2025-10-18 23:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-18 23:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:01:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:01:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:01:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:01:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:07:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:07:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:07:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:07:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:09:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:09:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:09:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:09:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:12:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-19 00:12:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-19 00:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 3220ms","timestamp":"2025-10-19 00:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:12:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-19 00:12:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: tyler.igwe@gmail.com","timestamp":"2025-10-19 00:12:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:12:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:12:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 11 with KYC response and creating wallet.","timestamp":"2025-10-19 00:12:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 11 updated and wallet creation successful.","timestamp":"2025-10-19 00:12:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 11, Can Onboard: true","timestamp":"2025-10-19 00:12:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:12:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:13:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:13:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:13:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:13:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:14:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:14:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:14:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:14:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:15:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:15:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:15:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:15:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:15:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:18:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:18:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:18:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:18:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:21:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:21:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:21:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:21:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:28:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:28:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:28:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-19 00:29:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-19 00:29:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 7084ms","timestamp":"2025-10-19 00:29:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:29:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:29:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-19 00:29:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:29:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:29:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 11 with KYC response and creating wallet.","timestamp":"2025-10-19 00:29:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 11 updated and wallet creation successful.","timestamp":"2025-10-19 00:29:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 11, Can Onboard: true","timestamp":"2025-10-19 00:29:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:29:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:32:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to emperorferdy@gmail.com - SENT","timestamp":"2025-10-19 00:32:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-19 00:32:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 5123ms","timestamp":"2025-10-19 00:32:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:32:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:32:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - emperorferdy@gmail.com - SUCCESS","timestamp":"2025-10-19 00:32:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating new user for email: emperorferdy@gmail.com","timestamp":"2025-10-19 00:32:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-19 00:32:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:34:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Updating user ID: 12 with KYC response and creating wallet.","timestamp":"2025-10-19 00:34:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"User ID: 12 updated and wallet creation successful.","timestamp":"2025-10-19 00:34:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 12, Can Onboard: true","timestamp":"2025-10-19 00:34:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:34:09"}

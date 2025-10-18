@@ -182,7 +182,7 @@ export class AuthService {
       throw error;
     }
 
-    await this.cacheService.set(`otp_${email}`, otp, env.OTP_EXPIRES_IN);
+    await this.cacheService.set(`otp_${email}`, otp, 60)
   }
 
   async validateOTP(email: string, otp: string): Promise<boolean> {

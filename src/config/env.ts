@@ -28,5 +28,7 @@ export const env: EnvConfig = {
   MAIL_SECURE: process.env.MAIL_SECURE === "true",
   MAIL_SERVICE: process.env.MAIL_SERVICE as string,
   OTP_EXPIRES_IN: Number(process.env.OTP_EXPIRES_IN),
-  FLUTTERWAVE_SANDBOX_SECRET_KEY: process.env.FLUTTERWAVE_SANDBOX_SECRET_KEY as string
+  FLUTTERWAVE_SANDBOX_SECRET_KEY: process.env.FLUTTERWAVE_SANDBOX_SECRET_KEY as string,
+  FLUTTERWAVE_CLIENT_ID: process.env.FLUTTERWAVE_CLIENT_ID as string,
+  FLUTTERWAVE_CLIENT_SECRET: process.env.FLUTTERWAVE_CLIENT_SECRET as string
 };

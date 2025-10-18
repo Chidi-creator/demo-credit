@@ -23,6 +23,7 @@ class VerificationHandler {
       }
 
       const kycData: KYCSubmissionData = req.body;
+      kycData.email = authReq.user.email;
 
       //validate request body
       const { error } = validateKYCSubmission(req.body);

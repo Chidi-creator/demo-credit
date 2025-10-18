@@ -3,8 +3,9 @@ import { env } from "@config/env";
 import UserUseCases from "@usecases/user.usecase";
 import { KYCSubmissionData } from "./types/verification";
 import { IUser } from "@models/user";
-import { ValidationError, VerificationError } from "@managers/error.manager";
-
+import WalletService from "./wallet.service";
+import { CreateWalletRequest } from "@providers/wallet/types/wallet";
+import logger from "./logger.service";
 
 interface AdjuitorApiResponse {
   status: string;
@@ -13,17 +14,14 @@ interface AdjuitorApiResponse {
 }
 
 class VerificationService {
+  private walletService: WalletService;
   private userUseCases: UserUseCases;
-  private apiUrl: string;
-  private apiKey: string;
 
   constructor() {
     this.userUseCases = new UserUseCases();
-    this.apiUrl = "https://adjutor.lendsqr.com/v2/customers";
-    this.apiKey = env.ADJUITOR_API_KEY;
+    this.walletService = new WalletService();
   }
 
- 
   async submitKYCVerification(
     userId: number,
     kycData: KYCSubmissionData
@@ -34,12 +32,26 @@ class VerificationService {
     message: string;
   }> {
     try {
-      const apiResponse = await this.callKYCAPI(kycData);
+      const response = await axios.post(
+        "https://adjutor.lendsqr.com/v2/customers",
+        kycData,
+        {
+          headers: {
+            Authorization: `Bearer ${env.ADJUITOR_API_KEY}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      const apiResponse = response.data;
 
       const canOnboard = this.canUserBeOnboarded(apiResponse);
-
       if (canOnboard) {
-        await this.updateUserWithKYCResponse(userId, apiResponse);
+        await this.updateUserWithKYCResponseAndCreateWallet(
+          userId,
+          apiResponse,
+          kycData
+        );
       }
 
       if (!canOnboard) {
@@ -53,7 +65,7 @@ class VerificationService {
         canOnboard,
         response: apiResponse,
         message: canOnboard
-          ? "KYC verification successful"
+          ? "KYC verification and wallet creation successful"
           : "User cannot be onboarded due to blacklisting issues",
       };
     } catch (error: any) {
@@ -68,52 +80,41 @@ class VerificationService {
     }
   }
 
-  //call adjuitor api
-  private async callKYCAPI(
-    kycData: KYCSubmissionData
-  ): Promise<AdjuitorApiResponse> {
-    const response = await axios.post<AdjuitorApiResponse>(
-      this.apiUrl,
-      kycData,
-      {
-        headers: {
-          Authorization: `Bearer ${this.apiKey}`,
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
-    if (response.data.status !== "success") {
-      throw new VerificationError(response.data.message || "KYC API call failed", "500");
-    }
-
-    return response.data;
-  }
-
   //update user with adjuitor api response
-  private async updateUserWithKYCResponse(
+  private async updateUserWithKYCResponseAndCreateWallet(
     userId: number,
-    apiResponse: AdjuitorApiResponse
+    apiResponse: AdjuitorApiResponse,
+    kycData: KYCSubmissionData
   ): Promise<void> {
+    logger.info(`Updating user ID: ${userId} with KYC response and creating wallet.`);
     const updateData: Partial<IUser> = {
       is_verified: true,
       first_name: apiResponse.data.user.first_name,
       last_name: apiResponse.data.user.last_name,
+      user_bvn: kycData.bvn
     };
-
+    const walletData: CreateWalletRequest = {
+      email: kycData.email,
+      currency: 'NGN',
+      is_permanent: true,
+      firstname: apiResponse.data.user.first_name,
+      lastname: apiResponse.data.user.last_name,
+      tx_ref: this.walletService.generateTxRef(userId),
+      bank_code:'232',
+      bvn: kycData.bvn,
+    };
+   await this.walletService.CallWalletApi(walletData, userId);
     await this.userUseCases.update(userId, updateData);
+    logger.info(`User ID: ${userId} updated and wallet creation successful.`);
   }
 
   private canUserBeOnboarded(apiResponse: AdjuitorApiResponse): boolean {
-   
     if (apiResponse.data.user.blacklist > 0) {
       return false;
     }
 
     return true;
   }
-
-
 }
 
 export default VerificationService;

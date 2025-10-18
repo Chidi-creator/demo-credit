@@ -30,8 +30,7 @@ class AccountService {
       };
 
       const response = await flutterwaveBankResolver.callResolveBankAccountAPI(
-        payload,
-        userId
+        payload
       );
 
       let accountData = {} as IAccount;

@@ -22,6 +22,23 @@ class UserRepository extends BaseRepository<IUser> {
       );
     }
   }
+
+  async isUserVerified(userId: number): Promise<boolean> {
+    try {
+      const user = await this.findById(userId);
+      if (!user) {
+        throw new Error(`User with id ${userId} not found`);
+      }
+      if (user.is_verified === undefined) {
+        throw new Error();
+      }
+      return user.is_verified;
+    } catch (error: any) {
+      throw new DatabaseError(
+        `Error checking if user is verified: ${error.message}`
+      );
+    }
+  }
 }
 
 export default UserRepository;

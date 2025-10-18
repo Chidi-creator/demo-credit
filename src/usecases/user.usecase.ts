@@ -40,6 +40,10 @@ class UserUseCases {
   async isUserBlacklisted(userId: number): Promise<boolean> {
     return await this.userRepository.isUserBlacklisted(userId);
   }
+
+  async isUserVerified(userId: number): Promise<boolean> {
+    return await this.userRepository.isUserVerified(userId);
+  }
 }
 
 export default UserUseCases;

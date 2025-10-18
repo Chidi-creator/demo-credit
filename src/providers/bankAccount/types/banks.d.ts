@@ -3,7 +3,7 @@ export interface FlutterwaveBankRequest {
   account_bank: string;
 }
 
-export interface FlutterwaveBankResponse {
+export interface FlutterwaveAccountResolveResponse {
   status: string;
   message: string;
   data: {

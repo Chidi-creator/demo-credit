@@ -1,1 +1,19 @@
 {"level":"\u001b[31merror\u001b[39m","message":"Login failed for tyler.igwe@gmail.com","timestamp":"2025-10-17 19:17:03"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for tyler.igwe@gmail.com","timestamp":"2025-10-18 11:15:05"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 2, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 2 - Unknown column 'bvn' in 'field list'","timestamp":"2025-10-18 19:34:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 401","timestamp":"2025-10-18 19:34:29"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 2, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `user_bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 2 - Unknown column 'phone_number' in 'field list'","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 400","timestamp":"2025-10-18 19:39:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2. Error: Request failed with status code 400","timestamp":"2025-10-18 19:52:22"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 19:57:08"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 19:58:51"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 2","timestamp":"2025-10-18 20:10:24"}
+{"level":"\u001b[31merror\u001b[39m","message":"Failed to start server","timestamp":"2025-10-18 20:15:03"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:26:46"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:28:09"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:29:09"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:30:32"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:30:53"}
+{"level":"\u001b[31merror\u001b[39m","message":"Login failed for emperorferdy@gmail.com","timestamp":"2025-10-18 20:31:44"}
+{"level":"\u001b[31merror\u001b[39m","message":"KYC verification failed for user ID: 4, Reason: Error updating users: update `users` set `is_verified` = true, `first_name` = 'John', `last_name` = 'Sule', `user_bvn` = '22222222222', `phone_number` = '07123456789' where `id` = 4 - Duplicate entry '07123456789' for key 'users.users_phone_number_unique'","timestamp":"2025-10-18 20:32:50"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 4","timestamp":"2025-10-18 20:32:51"}

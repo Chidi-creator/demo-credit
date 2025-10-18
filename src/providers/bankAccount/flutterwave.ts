@@ -1,6 +1,6 @@
 import { env } from "@config/env";
 import axios from "axios";
-import { FlutterwaveBankRequest, FlutterwaveBankResponse } from "./types/banks";
+import { FlutterwaveBankRequest, FlutterwaveAccountResolveResponse } from "./types/banks";
 import logger from "@services/logger.service";
 
 class FlutterwaveBankResolver {
@@ -23,10 +23,8 @@ class FlutterwaveBankResolver {
 
   //call flutterwave api to resolve bank account
    async callResolveBankAccountAPI(
-    bankData: FlutterwaveBankRequest,
-    userId: number
-  ): Promise<FlutterwaveBankResponse> {
-    const response = await axios.post<FlutterwaveBankResponse>(
+    bankData: FlutterwaveBankRequest  ): Promise<FlutterwaveAccountResolveResponse> {
+    const response = await axios.post<FlutterwaveAccountResolveResponse>(
       this.url,
       bankData,
       {
@@ -39,7 +37,7 @@ class FlutterwaveBankResolver {
     if (response.data.status !== "success") {
       //should not break down the system, log error and tell user to try again later later
       logger.error(
-        `Flutterwave API Error for user ${userId}: ${response.data.message}`
+        `Flutterwave API Error: ${response.data.message}`
       );
 
       throw new Error(`Flutterwave API Error: ${response.data.message}`);
