@@ -15,7 +15,7 @@ import { env } from "@config/env";
 import { responseManager } from "@managers/index";
 import UserUseCases from "@usecases/user.usecase";
 import { randomInt } from "crypto";
-import { EmailOptions } from "@providers/types/email";
+import { EmailOptions } from "@providers/notification/types/email";
 import MailService from "./mail.service";
 import CacheService from "./cache.service";
 import { IUser } from "@models/user";

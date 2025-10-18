@@ -21,4 +21,5 @@ export interface EnvConfig {
   MAIL_SECURE: boolean;
   MAIL_SERVICE: string;
   OTP_EXPIRES_IN: number;
+  FLUTTERWAVE_SANDBOX_SECRET_KEY: string;
 }

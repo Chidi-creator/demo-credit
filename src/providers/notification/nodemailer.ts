@@ -1,5 +1,5 @@
 import { env } from "@config/env";
-import { EmailOptions, NodeMailerConfigType } from "@providers/types/email";
+import { EmailOptions, NodeMailerConfigType } from "@providers/notification/types/email";
 import * as nodemailer from "nodemailer";
 import { ProviderError } from "@managers/error.manager";
 import { nodeMailerConfig } from "@config/constants.config";

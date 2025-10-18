@@ -47,9 +47,13 @@ export abstract class BaseRepository<T extends BaseEntity> {
     }
   }
 
-  async findAll(): Promise<T[]> {
+  async findAll(limit?: number, offset?: number): Promise<T[]> {
     try {
-      return await db(this.table).select("*");
+      let query = db(this.table).select("*");
+      if (typeof limit === "number") {
+        query = query.limit(limit).offset(offset || 0);
+      }
+      return await query;
     } catch (error: any) {
       throw new DatabaseError(
         `Error fetching all ${this.table}: ${error.message}`

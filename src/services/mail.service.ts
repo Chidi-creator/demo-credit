@@ -1,6 +1,6 @@
 import { nodemailerConfig } from "@providers/index";
 import { env } from "@config/env";
-import { EmailOptions } from "@providers/types/email";
+import { EmailOptions } from "@providers/notification/types/email";
 
 
  class MailService {

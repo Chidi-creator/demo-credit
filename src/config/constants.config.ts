@@ -1,4 +1,4 @@
-import { NodeMailerConfigType } from "@providers/types/email";
+import { NodeMailerConfigType } from "@providers/notification/types/email";
 import { env } from "./env";
 
 export enum TRANSACTION_TYPE {

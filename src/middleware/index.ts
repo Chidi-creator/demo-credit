@@ -4,6 +4,9 @@ import cors from "cors";
 import passport from "passport";
 import AuthRouter from "@deliverymen/auth.delivery";
 import VerificationRouter from "@deliverymen/verification.delivery";
+import AccountRouter from "@deliverymen/accounts.delivery";
+import BankRoute from "@deliverymen/banks.delivery";
+import UserRouter from "@deliverymen/users.delivery";
 import requestLogger from "@middleware/logger.middleware";
 
 
@@ -18,6 +21,9 @@ const setUpRoutes = (middleware: Middleware) => {
 
   middleware.addMiddleware("/auth", AuthRouter);
   middleware.addMiddleware("/verification", VerificationRouter);
+  middleware.addMiddleware("/accounts", AccountRouter);
+  middleware.addMiddleware("/users", UserRouter);
+  middleware.addMiddleware("/banks", BankRoute);
 };
 
 const setUpMiddleware = () => {

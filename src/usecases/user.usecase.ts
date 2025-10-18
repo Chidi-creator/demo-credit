@@ -16,7 +16,12 @@ class UserUseCases {
     return await this.userRepository.insertMany(usersData);
   }
 
-  async getAllUsers(): Promise<IUser[]> {
+  async getAllUsers(page?: number, limit?: number): Promise<IUser[]> {
+    if (typeof page === "number" && page > 0 && typeof limit === "number") {
+      const offset = (page - 1) * limit;
+      return await this.userRepository.findAll(limit, offset);
+    }
+    // default: return all if pagination not provided
     return await this.userRepository.findAll();
   }
 
@@ -32,6 +37,9 @@ class UserUseCases {
     return await this.userRepository.update(id, data);
   }
 
+  async isUserBlacklisted(userId: number): Promise<boolean> {
+    return await this.userRepository.isUserBlacklisted(userId);
+  }
 }
 
 export default UserUseCases;

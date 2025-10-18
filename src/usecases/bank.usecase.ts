@@ -20,7 +20,7 @@ class BanksUseCases {
   async getBankById(id: number): Promise<IBank | undefined> {
     return await this.bankRepository.findById(id);
   }
-  async findByBankCode(bankCode: string): Promise<IBank | undefined> {
+  async getBankByCode(bankCode: string): Promise<IBank | undefined> {
     return await this.bankRepository.findOneByQuery({ bank_code: bankCode });
   }
 }
