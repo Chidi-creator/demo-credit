@@ -115,3 +115,11 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-17 19:22:21"}
 {"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 1, Can Onboard: true","timestamp":"2025-10-17 19:22:23"}
 {"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-17 19:22:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-18 03:15:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-18 03:15:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-18 03:15:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-18 03:15:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","timestamp":"2025-10-18 03:15:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","timestamp":"2025-10-18 03:15:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /favicon.ico","timestamp":"2025-10-18 03:15:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /favicon.ico","timestamp":"2025-10-18 03:15:36"}

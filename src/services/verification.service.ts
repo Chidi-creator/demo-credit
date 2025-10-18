@@ -23,9 +23,7 @@ class VerificationService {
     this.apiKey = env.ADJUITOR_API_KEY;
   }
 
-  /**
-   * Submit KYC data to external API and handle response
-   */
+ 
   async submitKYCVerification(
     userId: number,
     kycData: KYCSubmissionData
@@ -107,7 +105,7 @@ class VerificationService {
   }
 
   private canUserBeOnboarded(apiResponse: AdjuitorApiResponse): boolean {
-    //check if user is blacklisted
+   
     if (apiResponse.data.user.blacklist > 0) {
       return false;
     }
