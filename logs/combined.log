@@ -588,3 +588,7 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"User ID: 12 updated and wallet creation successful.","timestamp":"2025-10-19 00:34:09"}
 {"level":"\u001b[32minfo\u001b[39m","message":"KYC verification completed for user ID: 12, Can Onboard: true","timestamp":"2025-10-19 00:34:09"}
 {"level":"\u001b[32minfo\u001b[39m","message":"POST /verification/submit-kyc","timestamp":"2025-10-19 00:34:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-19 00:40:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-19 00:40:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-19 00:40:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-19 00:40:56"}
