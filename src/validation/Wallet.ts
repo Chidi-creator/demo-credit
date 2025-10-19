@@ -1,0 +1,12 @@
+import joi from "joi";
+import { CreditWalletPayload } from "@services/types/wallet";
+
+export const validateCreditWalletPayload = (object: CreditWalletPayload) => {
+  const schema = joi.object({
+    account_number: joi.string().required(),
+    amount: joi.number().min(0).required(),
+    currency: joi.string().valid("NGN").required(),
+    description: joi.string().optional(),
+  });
+  return schema.validate(object);
+};

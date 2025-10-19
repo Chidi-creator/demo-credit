@@ -32,6 +32,26 @@ class WalletUseCases {
       flutterwave_account_ref: flutterwaveRef,
     });
   }
+
+  async getWalletByAccountNumber(
+    accountNumber: string
+  ): Promise<IWallet | undefined> {
+    return await this.walletRepository.findOneByQuery({
+      account_number: accountNumber,
+    });
+  }
+
+  async handleInternalWalletTransfer(
+    senderWalletId: number,
+    receiverWalletId: number,
+    amount: number
+  ): Promise<void> {
+    return await this.walletRepository.handleInternalWalletTransfer(
+      senderWalletId,
+      receiverWalletId,
+      amount
+    );
+  }
 }
 
 export default WalletUseCases;

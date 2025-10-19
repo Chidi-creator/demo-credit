@@ -103,7 +103,7 @@ class VerificationService {
       bank_code:'232',
       bvn: kycData.bvn,
     };
-   await this.walletService.CallWalletApi(walletData, userId);
+   await this.walletService.callWalletCreationApi(walletData, userId);
     await this.userUseCases.update(userId, updateData);
     logger.info(`User ID: ${userId} updated and wallet creation successful.`);
   }
