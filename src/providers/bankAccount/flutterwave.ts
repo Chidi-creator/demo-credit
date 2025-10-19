@@ -35,7 +35,6 @@ class FlutterwaveBankResolver {
       }
     );
     if (response.data.status !== "success") {
-      //should not break down the system, log error and tell user to try again later later
       logger.error(
         `Flutterwave API Error: ${response.data.message}`
       );

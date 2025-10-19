@@ -24,4 +24,5 @@ export interface EnvConfig {
   FLUTTERWAVE_SANDBOX_SECRET_KEY: string;
   FLUTTERWAVE_CLIENT_ID: string;
   FLUTTERWAVE_CLIENT_SECRET: string;
+  FLUTTERWAVE_SECRET_HASH: string;
 }

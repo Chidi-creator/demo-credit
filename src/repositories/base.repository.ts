@@ -61,7 +61,7 @@ export abstract class BaseRepository<T extends BaseEntity> {
     }
   }
 
-  async update(
+  async  update(
     id: number,
     data: Partial<Omit<T, "id" | "created_at" | "updated_at">>
   ): Promise<boolean> {
