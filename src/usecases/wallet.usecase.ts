@@ -15,7 +15,9 @@ class WalletUseCases {
   async getWalletByUserId(userId: number): Promise<IWallet | undefined> {
     return await this.walletRepository.findOneByQuery({ user_id: userId });
   }
-
+async getWalletById(walletId: number): Promise<IWallet | undefined> {
+    return await this.walletRepository.findById(walletId);
+  }
   async updateWalletBalance(
     walletId: number,
     newBalance: number

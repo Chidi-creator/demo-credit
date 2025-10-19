@@ -70,9 +70,16 @@ class WalletService {
         );
       }
 
+      // Ensure proper number handling
       const amount = Number(payload.amount);
       if (isNaN(amount) || amount <= 0) {
         throw new BadRequestError("Invalid transfer amount");
+      }
+
+      // Check sender has sufficient balance
+      const senderBalance = Number(senderWallet.balance || 0);
+      if (senderBalance < amount) {
+        throw new BadRequestError(`Insufficient balance. Available: ${senderBalance}, Required: ${amount}`);
       }
 
       await this.walletUsecase.handleInternalWalletTransfer(

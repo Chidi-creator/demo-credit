@@ -15,7 +15,7 @@ export enum TRANSACTION_DIRECTION {
 
 export enum TRANSACTION_STATUS {
   PENDING = "pending",
-  COMPLETED = "successful",
+  COMPLETED = "completed",
   FAILED = "failed",
 }
 

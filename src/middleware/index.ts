@@ -6,7 +6,9 @@ import AuthRouter from "@deliverymen/auth.delivery";
 import VerificationRouter from "@deliverymen/verification.delivery";
 import AccountRouter from "@deliverymen/accounts.delivery";
 import BankRoute from "@deliverymen/banks.delivery";
+import WalletRouter from "@deliverymen/wallet.delivery";
 import UserRouter from "@deliverymen/users.delivery";
+import TransactionRouter from "@deliverymen/transaction.delivery";
 import requestLogger from "@middleware/logger.middleware";
 
 
@@ -24,6 +26,8 @@ const setUpRoutes = (middleware: Middleware) => {
   middleware.addMiddleware("/accounts", AccountRouter);
   middleware.addMiddleware("/users", UserRouter);
   middleware.addMiddleware("/banks", BankRoute);
+  middleware.addMiddleware("/wallets", WalletRouter);
+  middleware.addMiddleware("/transactions", TransactionRouter);
 };
 
 const setUpMiddleware = () => {

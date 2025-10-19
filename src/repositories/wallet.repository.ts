@@ -44,17 +44,19 @@ class WalletRepository extends BaseRepository<IWallet> {
             `Receiver wallet not found: ${receiverWalletId}`
           );
         }
+        const senderNewBalance = Number(senderWallet.balance) - Number(amount);
+        const receiverCurrentBalance = Number(receiverWallet.balance || 0);
+        const receiverNewBalance = receiverCurrentBalance + Number(amount);
 
-        //perform balance updates
         await trx<IWallet>("wallets")
           .where({ id: senderWalletId })
           .update({
-            balance: senderWallet.balance - amount,
+            balance: senderNewBalance,
           });
 
         await trx<IWallet>(this.table)
           .where({ id: receiverWalletId })
-          .update({ balance: receiverWallet.balance! + amount });
+          .update({ balance: receiverNewBalance });
       });
     } catch (error) {
       throw new DatabaseError(

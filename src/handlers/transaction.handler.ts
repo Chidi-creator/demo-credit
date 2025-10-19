@@ -24,6 +24,8 @@ class TransactionHandler {
 
       const payload: FlutterwaveWebhookPayload = req.body;
 
+      console.log("Flutterwave Webhook Payload:", payload);
+
       await this.transactionService.processDeposit(payload);
       responseManager.success(
         res,

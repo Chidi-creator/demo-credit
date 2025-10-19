@@ -12,6 +12,8 @@ const transactionHandler = new TransactionHandler();
 router
   .route("/webhook/flutterwave/deposit")
   .post(
-    [authService.auth, blacklistedMiddleware.handle],
     transactionHandler.handleDepositWebhook
   );
+
+  export default router;  
+
