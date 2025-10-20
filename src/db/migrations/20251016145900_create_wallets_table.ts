@@ -7,6 +7,7 @@
         .integer("user_id")
         .unsigned()
         .notNullable()
+        .unique()
         .references("id")
         .inTable("users")
         .onDelete("CASCADE");

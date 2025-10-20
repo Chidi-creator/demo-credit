@@ -23,7 +23,7 @@ export async function up(knex: Knex): Promise<void> {
     //account details
     table.string("account_number").notNullable().unique();
     table.string("account_name").notNullable();
-    table.string("bank_code").notNullable().unique();
+    table.string("bank_code").notNullable()
     table.string("bank_name").notNullable();
 
     table.timestamp("deleted_at").nullable().defaultTo(null);

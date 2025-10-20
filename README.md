@@ -7,81 +7,10 @@ A secure and scalable banking application that provides credit services, user ma
 
 A secure and scalable banking application that provides credit services, user management, and transaction processing.
 
-##  Database Schema (ER Diagram)
+## 🗺 ER Diagram
 
-```mermaid
-erDiagram
-    USERS ||--o{ ACCOUNTS : has
-    USERS ||--o{ WALLETS : has
-    bankS ||--o{ ACCOUNTS : contains
-    WALLETS ||--o{ TRANSACTIONS : has
-    
-    USERS {
-        int id PK
-        string email "UK"
-        string first_name
-        string last_name
-        string user_bvn "UK, nullable"
-        string phone_number "UK, nullable"
-        boolean is_verified
-        boolean is_blacklisted
-        timestamp created_at
-        timestamp updated_at
-        timestamp deleted_at "nullable"
-    }
-    
-    bankS {
-        int id PK
-        string bank_name
-        string bank_code "UK"
-        timestamp created_at
-        timestamp updated_at
-    }
-    
-    ACCOUNTS {
-        int id PK
-        int user_id FK
-        int bank_id FK
-        string account_number "UK"
-        string account_name
-        string bank_code "UK"
-        string bank_name
-        timestamp created_at
-        timestamp updated_at
-        timestamp deleted_at "nullable"
-    }
-    
-    WALLETS {
-        int id PK
-        int user_id FK
-        string account_number "UK"
-        string bank_name
-        string bank_code
-        string currency
-        string flutterwave_account_ref "UK"
-        decimal(15,2) balance
-        enum status "active|inactive|suspended"
-        timestamp created_at
-        timestamp updated_at
-        timestamp deleted_at "nullable"
-    }
-    
-    TRANSACTIONS {
-        int id PK
-        int wallet_id FK
-        enum type "fund|withdraw|transfer|reversal"
-        string reference "UK"
-        decimal(15,2) amount
-        string currency
-        enum direction "credit|debit"
-        enum status "pending|completed|failed"
-        string description "nullable"
-        json metadata "nullable"
-        string external_reference "nullable"
-        timestamp created_at
-        timestamp updated_at
-    }
-```
+![ER Diagram](./docs/er-diagram.png)
+
 
 ##  API Documentation
 
@@ -100,7 +29,7 @@ Content-Type: application/json
 
 {
   "email": "user@example.com",
-  "password": "securePassword123"
+  "otp": "******"
 }
 ```
 
@@ -183,7 +112,7 @@ Content-Type: application/json
 
 {
   // Flutterwave webhook payload
-  
+
 }
 ```
 
@@ -192,7 +121,6 @@ Content-Type: application/json
 - **Backend**: Node.js with TypeScript
 - **Database**: MySQL with Knex.js ORM
 - **Authentication**: JWT, Passport.js
-- **API Documentation**: Swagger/OpenAPI
 - **Testing**: Jest
 - **Logging**: Winston
 - **Email**: Nodemailer
@@ -259,17 +187,3 @@ test coverage:
 ├── usecases/         # Application use cases
 └── validation/       # Request validation schemas
 
-graph TD
-    A[Client] -->|HTTP Request| B[API Gateway]
-    B --> C[Authentication Middleware]
-    C --> D[Request Validation]
-    D --> E[Handler]
-    E --> F[Service Layer]
-    F --> G[Repository Layer]
-    G --> H[Database]
-    H -->|Response| G
-    G --> F
-    F --> E
-    E --> D
-    D --> B
-    B -->|HTTP Response| A
