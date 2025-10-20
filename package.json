@@ -16,7 +16,7 @@
     "test:verbose": "jest --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Chidiebere-Igwe Chidiebere",
   "license": "ISC",
   "description": "",
   "dependencies": {
