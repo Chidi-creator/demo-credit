@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon",
+    "dev": "nodemon",
+    "start": "node dist/app.js",
     "build": "tsc -p tsconfig.build.json",
     "migrate:make": "knex migrate:make --knexfile knexfile.ts",
     "migrate:latest": "knex migrate:latest --knexfile knexfile.ts",
