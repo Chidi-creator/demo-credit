@@ -1,3 +1,10 @@
 .env
 node_modules
 dist
+
+# Test coverage
+coverage
+*.log
+
+# Jest cache
+.jest-cache

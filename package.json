@@ -9,7 +9,11 @@
     "migrate:latest": "knex migrate:latest --knexfile knexfile.ts",
     "migrate:rollback": "knex migrate:rollback --knexfile knexfile.ts",
     "migrate:status": "knex migrate:status --knexfile knexfile.ts",
-    "seed:banks": "ts-node -r tsconfig-paths/register src/db/seeds/seed-banks.ts"
+    "seed:banks": "ts-node -r tsconfig-paths/register src/db/seeds/seed-banks.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
   },
   "keywords": [],
   "author": "",
@@ -38,12 +42,17 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
     "@types/joi": "^17.2.2",
     "@types/knex": "^0.15.2",
     "@types/node": "^24.7.2",
     "@types/nodemailer": "^7.0.2",
     "@types/passport-jwt": "^4.0.1",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.2.0",
     "nodemon": "^3.1.10",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.5",
     "typescript": "^5.9.3"
   }
 }

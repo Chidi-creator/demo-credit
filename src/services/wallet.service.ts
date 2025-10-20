@@ -27,7 +27,6 @@ class WalletService {
   ): Promise<IWallet> {
     try {
       const response = await flutterwaveWalletProvider.createWallet(Data);
-      console.log("Flutterwave Wallet Response:", response);
       let walletData = {} as IWallet;
 
       if (response.status == "success") {
@@ -52,10 +51,18 @@ class WalletService {
     }
   }
 
-  async handleWalletTransaction(payload: CreditWalletPayload, userId: number) {
+  async handleWalletTransaction(payload: CreditWalletPayload, userId: number): Promise<void> {
     //handle wallet transaction internally
     try {
+      logger.info(`Starting transfer for user ${userId}`, { 
+        userId, 
+        accountNumber: payload.account_number, 
+        amount: payload.amount 
+      });
+      
       const senderWallet = await this.walletUsecase.getWalletByUserId(userId);
+      logger.debug('Sender wallet retrieved', { senderWallet });
+
       if (!senderWallet) {
         throw new NotFoundError(`Wallet not found for user ID: ${userId}`);
       }
@@ -65,10 +72,16 @@ class WalletService {
       const receiverWallet = await this.walletUsecase.getWalletByAccountNumber(
         payload.account_number
       );
+      logger.debug('Receiver wallet retrieved', { receiverWallet });
+      
       if (!receiverWallet) {
         throw new NotFoundError(
           `Receiver wallet not found for account number: ${payload.account_number}`
         );
+      }
+
+      if (senderWallet.id === receiverWallet.id) {
+        throw new BadRequestError('Cannot transfer to your own wallet');
       }
 
       // Ensure proper number handling
@@ -83,21 +96,34 @@ class WalletService {
         throw new BadRequestError(`Insufficient balance. Available: ${senderBalance}, Required: ${amount}`);
       }
 
+      logger.info(`Transferring funds`, { 
+        amount, 
+        from: senderWallet.id, 
+        to: receiverWallet.id,
+        senderBalance,
+        userId 
+      });
+      
       await this.walletUsecase.handleInternalWalletTransfer(
         senderWallet.id!,
         receiverWallet.id!,
         amount
       );
-      logger.info(
-        `Successfully transferred ${amount} from user ID: ${userId} to account number: ${payload.account_number}`
-      );
+      
+      logger.info(`Successfully transferred ${amount} from user ID: ${userId} to account number: ${payload.account_number}`, {
+        userId,
+        amount,
+        accountNumber: payload.account_number,
+        senderWalletId: senderWallet.id,
+        receiverWalletId: receiverWallet.id
+      });
 
      //create transaction records for both sender and receiver
       await this.createTransferTransactionRecords(senderWallet, receiverWallet, amount, payload.currency);
 
      
     } catch (error) {
-      logger.error(`Error handling wallet transaction for user ID: ${userId}`);
+      logger.error(`Error handling wallet transaction for user ID: ${userId}`, error);
       throw error;
     }
   }

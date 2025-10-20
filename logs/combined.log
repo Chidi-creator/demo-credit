@@ -836,3 +836,274 @@
 {"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 07:43:25"}
 {"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 07:43:26"}
 {"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 07:43:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 07:59:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 07:59:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 07:59:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 07:59:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 07:59:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 07:59:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 07:59:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 07:59:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:00:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:00:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:00:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:00:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:00:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:00:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:00:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:00:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:00:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:00:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:01:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:01:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:01:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:01:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:04:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:04:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:04:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:04:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:06:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:06:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:06:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:06:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:06:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:06:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:06:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:06:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:07:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:07:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:07:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:07:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:10:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:10:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:13:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:13:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:13:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:13:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:13:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:13:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:13:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:13:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:15:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:15:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:15:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:15:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:16:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:16:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:16:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:16:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:18:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:19:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:19:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:19:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:19:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:22:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:22:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:22:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:22:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:23:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:23:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:23:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:23:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:25:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:25:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:27:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:27:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:27:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:27:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:29:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:29:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:29:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:29:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:31:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:31:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:31:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:31:14"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:31:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:31:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:31:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:31:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:32:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:32:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:32:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:32:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:33:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:33:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:33:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:33:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:34:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:34:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:34:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:34:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:44:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:44:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:44:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:44:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:46:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:46:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:46:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:46:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:47:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:47:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:47:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:47:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:48:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:48:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:48:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:48:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:49:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:49:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:49:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:49:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:50:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:50:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:50:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:50:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:51:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:51:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:51:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:51:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:53:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:53:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:53:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:53:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:54:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:54:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:54:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:54:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:56:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:56:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:56:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:56:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:58:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:58:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:58:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:58:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 08:59:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 08:59:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 08:59:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 08:59:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 08:59:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-20 08:59:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 08:59:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4236ms","timestamp":"2025-10-20 08:59:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 08:59:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 09:00:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:00:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 09:00:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:00:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:00:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 10 from user ID: 11 to account number: 8817258690","timestamp":"2025-10-20 09:00:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:00:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:02:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:02:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 10 from user ID: 11 to account number: 8817258690","timestamp":"2025-10-20 09:02:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:02:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:02:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:05:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:07:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:07:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:07:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:07:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:07:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:07:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:07:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:07:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:07:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:07:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[WALLET TRANSFER] Starting transfer for user 11","timestamp":"2025-10-20 09:07:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","timestamp":"2025-10-20 09:07:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:07:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":3944,"statusCode":200,"timestamp":"2025-10-20 09:07:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:09:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:09:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:09:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:10:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:10:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:10:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:12:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:12:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:12:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:12:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:12:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:12:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:12:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"[WALLET TRANSFER] Starting transfer for user 11","timestamp":"2025-10-20 09:12:16"}
+{"account_number":"8817858621","balance":"43.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:29:50.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"HKKC8471176083019011952942","id":11,"level":"\u001b[32minfo\u001b[39m","message":"[WALLET TRANSFER] Sender wallet:","status":"active","timestamp":"2025-10-20 09:12:17","updated_at":"2025-10-18T22:29:50.000Z","user_id":11}
+{"level":"\u001b[32minfo\u001b[39m","message":"[WALLET TRANSFER] Transferring 7 from wallet 11 to 12","timestamp":"2025-10-20 09:12:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","timestamp":"2025-10-20 09:12:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:12:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":7319,"statusCode":200,"timestamp":"2025-10-20 09:12:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:15:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:15:06"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:15:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:15:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:15:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:15:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:15:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:15:25"}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Starting transfer for user 11","timestamp":"2025-10-20 09:15:25","userId":11}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Sender wallet retrieved","senderWallet":{"account_number":"8817858621","balance":"36.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:29:50.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"HKKC8471176083019011952942","id":11,"status":"active","updated_at":"2025-10-18T22:29:50.000Z","user_id":11},"timestamp":"2025-10-20 09:15:26"}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Receiver wallet retrieved","receiverWallet":{"account_number":"8817258690","balance":"44.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:34:10.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"PBYL3174176083044966452942","id":12,"status":"active","updated_at":"2025-10-18T22:34:10.000Z","user_id":12},"timestamp":"2025-10-20 09:15:27"}
+{"amount":7,"from":11,"level":"\u001b[32minfo\u001b[39m","message":"Transferring funds","senderBalance":36,"timestamp":"2025-10-20 09:15:27","to":12,"userId":11}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","receiverWalletId":12,"senderWalletId":11,"timestamp":"2025-10-20 09:15:32","userId":11}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:15:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":8440,"statusCode":200,"timestamp":"2025-10-20 09:15:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:16:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:16:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:16:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:16:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:16:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:16:40"}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Starting transfer for user 11","timestamp":"2025-10-20 09:16:40","userId":11}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Sender wallet retrieved","senderWallet":{"account_number":"8817858621","balance":"29.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:29:50.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"HKKC8471176083019011952942","id":11,"status":"active","updated_at":"2025-10-18T22:29:50.000Z","user_id":11},"timestamp":"2025-10-20 09:16:41"}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Receiver wallet retrieved","receiverWallet":{"account_number":"8817258690","balance":"51.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:34:10.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"PBYL3174176083044966452942","id":12,"status":"active","updated_at":"2025-10-18T22:34:10.000Z","user_id":12},"timestamp":"2025-10-20 09:16:42"}
+{"amount":7,"from":11,"level":"\u001b[32minfo\u001b[39m","message":"Transferring funds","senderBalance":29,"timestamp":"2025-10-20 09:16:42","to":12,"userId":11}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","receiverWalletId":12,"senderWalletId":11,"timestamp":"2025-10-20 09:16:46","userId":11}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:16:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":7486,"statusCode":200,"timestamp":"2025-10-20 09:16:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 09:18:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 09:18:24"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 09:18:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 09:18:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","timestamp":"2025-10-20 09:18:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 09:18:34"}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Starting transfer for user 11","timestamp":"2025-10-20 09:18:34","userId":11}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Sender wallet retrieved","senderWallet":{"account_number":"8817858621","balance":"22.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:29:50.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"HKKC8471176083019011952942","id":11,"status":"active","updated_at":"2025-10-18T22:29:50.000Z","user_id":11},"timestamp":"2025-10-20 09:18:34"}
+{"level":"\u001b[34mdebug\u001b[39m","message":"Receiver wallet retrieved","receiverWallet":{"account_number":"8817258690","balance":"58.00","bank_code":"232","bank_name":"Sterling BANK","created_at":"2025-10-18T22:34:10.000Z","currency":"NGN","deleted_at":null,"flutterwave_account_ref":"PBYL3174176083044966452942","id":12,"status":"active","updated_at":"2025-10-18T22:34:10.000Z","user_id":12},"timestamp":"2025-10-20 09:18:35"}
+{"amount":7,"from":11,"level":"\u001b[32minfo\u001b[39m","message":"Transferring funds","senderBalance":22,"timestamp":"2025-10-20 09:18:35","to":12,"userId":11}
+{"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","receiverWalletId":12,"senderWalletId":11,"timestamp":"2025-10-20 09:18:37","userId":11}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:18:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":4050,"statusCode":200,"timestamp":"2025-10-20 09:18:38"}

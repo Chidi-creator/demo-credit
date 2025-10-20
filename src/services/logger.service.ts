@@ -74,7 +74,7 @@ export class LoggerService {
     userId?: number
   ) {
     const message = `${method} ${url}`;
-    this.logger.info(message);
+    this.logger.info(message, { statusCode, responseTime, userId });
   }
 
   // Authentication logging
@@ -87,13 +87,13 @@ export class LoggerService {
     const message = `Auth: ${action} - ${email} - ${
       success ? "SUCCESS" : "FAILED"
     }`;
-    this.logger.info(message);
+    this.logger.info(message, details || {});
   }
 
   // Performance logging
   public logPerformance(operation: string, duration: number, details?: any) {
     const message = `Performance: ${operation} took ${duration}ms`;
-    this.logger.info(message);
+    this.logger.info(message, details || {});
   }
 
   // Database operation logging
@@ -106,9 +106,9 @@ export class LoggerService {
     const message = `DB: ${operation} on ${table}`;
 
     if (error) {
-      this.logger.error(message);
+      this.logger.error(message, { error: error.message, stack: error.stack, duration });
     } else {
-      this.logger.info(message);
+      this.logger.info(message, { duration });
     }
   }
 
@@ -124,22 +124,36 @@ export class LoggerService {
     }`;
 
     if (error) {
-      this.logger.error(message);
+      this.logger.error(message, { error: error.message, duration });
     } else {
-      this.logger.info(message);
+      this.logger.info(message, { duration });
     }
   }
 
   public info(message: string, meta?: any) {
-    this.logger.info(message);
+    this.logger.info(message, meta || {});
   }
 
   public error(message: string, error?: Error | any, meta?: any) {
     if (error instanceof Error) {
-      this.logger.error(message);
+      this.logger.error(message, { 
+        error: error.message, 
+        stack: error.stack,
+        ...meta 
+      });
+    } else if (error) {
+      this.logger.error(message, { error, ...meta });
     } else {
-      this.logger.error(message);
+      this.logger.error(message, meta || {});
     }
+  }
+
+  public warn(message: string, meta?: any) {
+    this.logger.warn(message, meta || {});
+  }
+
+  public debug(message: string, meta?: any) {
+    this.logger.debug(message, meta || {});
   }
 
   public logTransaction(
@@ -152,15 +166,15 @@ export class LoggerService {
     const message = `Transaction: ${type} - ₦${amount} - User ${userId} - ${status}`;
 
     if (status === "FAILED") {
-      this.logger.error(message);
+      this.logger.error(message, { type, amount, userId, status, ...details });
     } else {
-      this.logger.info(message);
+      this.logger.info(message, { type, amount, userId, status, ...details });
     }
   }
 
   public logUserAction(userId: number, action: string, details?: any) {
     const message = `User Action: ${action} - User ${userId}`;
-    this.logger.info(message);
+    this.logger.info(message, { userId, action, ...details });
   }
 }
 
