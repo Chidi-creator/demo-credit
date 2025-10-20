@@ -1,10 +1,31 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "types": ["node"],
+    "paths": {
+      "@config/*": ["config/*"],
+      "@db/*": ["db/*"],
+      "@models/*": ["models/*"],
+      "@repositories/*": ["repositories/*"],
+      "@usecases/*": ["usecases/*"],
+      "@services/*": ["services/*"],
+      "@middleware/*": ["middleware/*"],
+      "@handlers/*": ["handlers/*"],
+      "@providers/*": ["providers/*"],
+      "@managers/*": ["managers/*"],
+      "@deliverymen/*": ["deliverymen/*"],
+      "@validation/*": ["validation/*"]
+    },
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
     "noEmit": false,
-    "outDir": "dist"
+    "strict": true
   },
+  "include": ["src/**/*.ts"],
   "exclude": [
     "node_modules",
     "dist",

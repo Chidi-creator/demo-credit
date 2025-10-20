@@ -20,8 +20,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/node": "^24.9.0",
     "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.9.0",
     "@types/winston": "^2.4.4",
     "axios": "^1.12.2",
     "bcryptjs": "^3.0.2",
