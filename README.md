@@ -11,7 +11,8 @@ A secure and scalable banking application that provides credit services, user ma
 
 ![ER Diagram](./docs/er-diagram.png)
 
-[📄 Download as PDF](./docs/er-diagram.pdf)
+[📄 View ER Diagram (PDF)](https://github.com/Chidi-creator/demo-credit/blob/main/docs/er-diagram.pdf)
+
 
 
 
