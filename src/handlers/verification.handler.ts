@@ -44,9 +44,14 @@ class VerificationHandler {
       logger.info(
         `KYC verification completed for user ID: ${userId}, Can Onboard: ${result.canOnboard}`
       );
+
+      if (!result.response) {
+        throw new ValidationError("KYC verification failed");
+      }
+
       return responseManager.success(
         res,
-        { canOnboard: result.canOnboard, response: result.response },
+ result.response,
         result.message
       );
     } catch (error: any) {

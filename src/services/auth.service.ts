@@ -159,6 +159,7 @@ export class AuthService {
 
   async sendOTPEmail(email: string): Promise<void> {
     const otp = this.generateOTP();
+    console.log(otp)
 
     const emailStartTime = Date.now();
     try {

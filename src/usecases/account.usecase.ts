@@ -26,5 +26,9 @@ class AccountUseCases {
   async deleteAccount(accountId: number): Promise<boolean> {
     return this.accountRepository.delete(accountId);
   }
+
+  async findUserAccountsById(userId: number): Promise<IAccount[]> {
+    return await this.accountRepository.findAllByColumn("user_id", userId);
+  }
 }
 export default AccountUseCases;

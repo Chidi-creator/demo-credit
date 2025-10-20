@@ -1107,3 +1107,225 @@
 {"accountNumber":"8817258690","amount":7,"level":"\u001b[32minfo\u001b[39m","message":"Successfully transferred 7 from user ID: 11 to account number: 8817258690","receiverWalletId":12,"senderWalletId":11,"timestamp":"2025-10-20 09:18:37","userId":11}
 {"level":"\u001b[32minfo\u001b[39m","message":"Transaction records created for sender wallet 11 and receiver wallet 12","timestamp":"2025-10-20 09:18:38"}
 {"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/transfer","responseTime":4050,"statusCode":200,"timestamp":"2025-10-20 09:18:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 21:53:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 21:53:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 21:53:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 21:53:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","timestamp":"2025-10-20 21:53:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","responseTime":15,"statusCode":200,"timestamp":"2025-10-20 21:53:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /favicon.ico","timestamp":"2025-10-20 21:53:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /favicon.ico","responseTime":7,"statusCode":404,"timestamp":"2025-10-20 21:53:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs","timestamp":"2025-10-20 21:53:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs","responseTime":5,"statusCode":301,"timestamp":"2025-10-20 21:53:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 21:53:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":9,"statusCode":404,"timestamp":"2025-10-20 21:53:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 21:54:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":4,"statusCode":404,"timestamp":"2025-10-20 21:54:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","timestamp":"2025-10-20 21:54:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /healthcheck","responseTime":1,"statusCode":304,"timestamp":"2025-10-20 21:54:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 21:54:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":2,"statusCode":404,"timestamp":"2025-10-20 21:54:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 21:55:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 21:55:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 21:55:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 21:55:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":11,"statusCode":200,"timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":4,"statusCode":200,"timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":59,"statusCode":200,"timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":73,"statusCode":200,"timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":156,"statusCode":200,"timestamp":"2025-10-20 21:55:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 21:55:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":6,"statusCode":200,"timestamp":"2025-10-20 21:55:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 21:57:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 21:57:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 21:57:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 21:57:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":13,"statusCode":304,"timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":42,"statusCode":304,"timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":37,"statusCode":304,"timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":2,"statusCode":200,"timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":10,"statusCode":304,"timestamp":"2025-10-20 21:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 21:57:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":5,"statusCode":304,"timestamp":"2025-10-20 21:57:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 21:57:48"}
+{"duration":4587,"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-20 21:57:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 21:57:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4819ms","timestamp":"2025-10-20 21:57:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":4826,"statusCode":200,"timestamp":"2025-10-20 21:57:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 21:58:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 21:58:20"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":965,"statusCode":200,"timestamp":"2025-10-20 21:58:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 21:59:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 21:59:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 21:59:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 21:59:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:00:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:00:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:00:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:00:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:03:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:03:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:03:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:03:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":13,"statusCode":304,"timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":37,"statusCode":304,"timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":61,"statusCode":304,"timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":18,"statusCode":200,"timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":107,"statusCode":304,"timestamp":"2025-10-20 22:03:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:03:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":10,"statusCode":304,"timestamp":"2025-10-20 22:03:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:05:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:05:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:05:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:05:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:06:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:06:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:06:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:06:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":19,"statusCode":304,"timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":41,"statusCode":304,"timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":23,"statusCode":304,"timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":6,"statusCode":200,"timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":22,"statusCode":304,"timestamp":"2025-10-20 22:06:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:06:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":14,"statusCode":304,"timestamp":"2025-10-20 22:06:09"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 22:06:42"}
+{"duration":4320,"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-20 22:06:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 22:06:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 4588ms","timestamp":"2025-10-20 22:06:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":4602,"statusCode":200,"timestamp":"2025-10-20 22:06:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-20 22:07:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 22:07:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":839,"statusCode":200,"timestamp":"2025-10-20 22:07:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /accounts/create","timestamp":"2025-10-20 22:07:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 22:07:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /accounts/create","responseTime":2083,"statusCode":201,"timestamp":"2025-10-20 22:08:01"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /accounts/user/11","timestamp":"2025-10-20 22:10:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-20 22:10:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /accounts/user/11","responseTime":954,"statusCode":200,"timestamp":"2025-10-20 22:10:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:11:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:11:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:11:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:11:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:11:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":8,"statusCode":304,"timestamp":"2025-10-20 22:11:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":86,"statusCode":304,"timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":94,"statusCode":304,"timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":82,"statusCode":200,"timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":128,"statusCode":304,"timestamp":"2025-10-20 22:11:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:11:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":5,"statusCode":304,"timestamp":"2025-10-20 22:11:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:13:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:13:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:13:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:13:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:14:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:14:48"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":13,"statusCode":304,"timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":33,"statusCode":304,"timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:14:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":122,"statusCode":304,"timestamp":"2025-10-20 22:14:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":100,"statusCode":304,"timestamp":"2025-10-20 22:14:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:14:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":11,"statusCode":200,"timestamp":"2025-10-20 22:14:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:14:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":3,"statusCode":304,"timestamp":"2025-10-20 22:14:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /banks/all","timestamp":"2025-10-20 22:16:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /banks/all","responseTime":1196,"statusCode":200,"timestamp":"2025-10-20 22:16:31"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:19:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:19:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:19:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:19:13"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:20:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:20:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:20:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:20:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":25,"statusCode":304,"timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":18,"statusCode":304,"timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":32,"statusCode":304,"timestamp":"2025-10-20 22:22:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:22:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":51,"statusCode":200,"timestamp":"2025-10-20 22:22:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:22:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":43,"statusCode":304,"timestamp":"2025-10-20 22:22:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:22:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":2,"statusCode":304,"timestamp":"2025-10-20 22:22:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:25:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:25:02"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:25:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:25:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:25:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:26:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:26:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:26:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:26:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:26:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:26:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:26:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:26:59"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:31:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:31:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:31:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:31:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/","responseTime":7,"statusCode":304,"timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui.css","responseTime":37,"statusCode":304,"timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-init.js","responseTime":2,"statusCode":200,"timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-bundle.js","responseTime":48,"statusCode":304,"timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/swagger-ui-standalone-preset.js","responseTime":21,"statusCode":304,"timestamp":"2025-10-20 22:31:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-10-20 22:31:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /api-docs/favicon-32x32.png","responseTime":8,"statusCode":304,"timestamp":"2025-10-20 22:31:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:34:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:34:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:34:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:34:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:36:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:36:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:36:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:36:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-20 22:38:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-20 22:38:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-20 22:38:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-20 22:38:30"}

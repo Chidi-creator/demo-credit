@@ -82,5 +82,15 @@ export abstract class BaseRepository<T extends BaseEntity> {
     }
   }
 
+  async findAllByColumn(column: string, value: any): Promise<T[]> {
+    try {
+      return await db(this.table).where({ [column]: value });
+    } catch (error: any) {
+      throw new DatabaseError(
+        `Error fetching all ${this.table} by column: ${error.message}`
+      );
+    }
+  }
+
 
 }
