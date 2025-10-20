@@ -16,7 +16,7 @@ const startServer = async () => {
     logger.info(" Redis connected successfully");
 
     // THEN start the server
-    middleware.getApp().listen(env.PORT, () => {
+    middleware.getApp().listen(env.PORT || 3078, () => {
       logger.info(`Server is running on port ${env.PORT}`);
     });
   } catch (error) {
