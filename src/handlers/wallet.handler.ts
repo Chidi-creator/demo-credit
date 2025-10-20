@@ -2,9 +2,9 @@ import { ValidationError } from "@managers/error.manager";
 import { responseManager } from "@managers/index";
 import logger from "@services/logger.service";
 import { AuthenticatedRequest } from "@services/types/auth";
-import { CreditWalletPayload } from "@services/types/wallet";
+import { CreditWalletPayload, WithdrawToAccountPayload } from "@services/types/wallet";
 import WalletService from "@services/wallet.service";
-import { validateCreditWalletPayload } from "@validation/Wallet";
+import { validateCreditWalletPayload, validateWithdrawToAccountPayload } from "@validation/Wallet";
 import { Request, Response } from "express";
 
 class WalletHandler {
@@ -31,6 +31,25 @@ class WalletHandler {
       });
     } catch (error: any) {
       logger.error(`Error handling wallet transaction : ${error.message}`);
+      responseManager.handleError(res, error);
+    }
+  };
+
+  handleWalletWithdrawal = async (req: Request, res: Response) => {
+    try {
+      const authReq = req as AuthenticatedRequest;
+      const userId = authReq.user.id;
+      const body: WithdrawToAccountPayload = req.body;
+
+      const { error } = validateWithdrawToAccountPayload(req.body);
+      if (error) {
+        throw new ValidationError(`Invalid request payload: ${error.message}`);
+      }
+
+      const result = await this.walletService.handleWalletWithdrawal(body, userId);
+      responseManager.success(res, result);
+    } catch (error: any) {
+      logger.error(`Error handling wallet withdrawal: ${error.message}`);
       responseManager.handleError(res, error);
     }
   };

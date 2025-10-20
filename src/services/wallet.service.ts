@@ -1,16 +1,17 @@
 import { IWallet } from "@models/wallet";
-import { flutterwaveWalletProvider } from "@providers/index";
+import { flutterwaveWalletProvider, flutterwaveTransferProvider } from "@providers/index";
 import {
   CreateWalletRequest,
   CreateWalletResponse,
 } from "@providers/wallet/types/wallet";
 import WalletUseCases from "@usecases/wallet.usecase";
 import logger from "./logger.service";
-import { CreditWalletPayload } from "./types/wallet";
+import { CreditWalletPayload, WithdrawToAccountPayload } from "./types/wallet";
 import { BadRequestError, NotFoundError } from "@managers/error.manager";
 import TransactionUseCases from "@usecases/transaction.usecases";
 import { TRANSACTION_DIRECTION, TRANSACTION_STATUS, TRANSACTION_TYPE } from "@config/constants.config";
 import { ITransaction } from "@models/transaction";
+import { InitiateTransferRequest } from "@providers/wallet/types/transfer";
 
 class WalletService {
   private walletUsecase: WalletUseCases;
@@ -97,6 +98,102 @@ class WalletService {
      
     } catch (error) {
       logger.error(`Error handling wallet transaction for user ID: ${userId}`);
+      throw error;
+    }
+  }
+
+  async handleWalletWithdrawal(payload: WithdrawToAccountPayload, userId: number) {
+    // Withdraw from wallet to bank account via Flutterwave
+    try {
+      // Get user wallet
+      const wallet = await this.walletUsecase.getWalletByUserId(userId);
+      if (!wallet || wallet.id === undefined) {
+        throw new NotFoundError(`Wallet not found for user ID: ${userId}`);
+      }
+
+      // Validate currency
+      if (payload.currency !== "NGN") {
+        throw new BadRequestError(`Unsupported currency: ${payload.currency}`);
+      }
+
+      // Validate amount
+      const amount = Number(payload.amount);
+      if (isNaN(amount) || amount <= 0) {
+        throw new BadRequestError("Invalid withdrawal amount");
+      }
+
+      // Check sufficient balance
+      const walletBalance = Number(wallet.balance || 0);
+      if (walletBalance < amount) {
+        throw new BadRequestError(
+          `Insufficient balance. Available: ${walletBalance}, Required: ${amount}`
+        );
+      }
+
+      // Generate unique reference for this withdrawal
+      const reference = this.generateTxRef(userId);
+
+      // Prepare Flutterwave transfer request
+      const transferRequest: InitiateTransferRequest = {
+        account_bank: payload.account_bank,
+        account_number: payload.account_number,
+        amount: amount,
+        narration: payload.narration || `Withdrawal by user ${userId}`,
+        currency: payload.currency,
+        reference: reference,
+        debit_currency: payload.currency,
+      };
+
+      logger.info(`Initiating withdrawal for user ${userId}: ${amount} ${payload.currency} to ${payload.account_number}`);
+
+      // Call Flutterwave transfer API
+      const transferResponse = await flutterwaveTransferProvider.initiateTransfer(transferRequest);
+
+      if (transferResponse.status !== "success") {
+        logger.error(`Flutterwave transfer failed: ${transferResponse.message}`);
+        throw new BadRequestError(`Withdrawal failed: ${transferResponse.message}`);
+      }
+
+      // Debit wallet balance
+      const newBalance = walletBalance - amount;
+      const isUpdated = await this.walletUsecase.updateWalletBalance(wallet.id, newBalance);
+
+      if (!isUpdated) {
+        logger.error(`Failed to update wallet balance after withdrawal for user ${userId}`);
+        throw new BadRequestError("Failed to update wallet balance");
+      }
+
+      // Create withdrawal transaction record
+      const transactionData: ITransaction = {
+        wallet_id: wallet.id,
+        type: TRANSACTION_TYPE.WITHDRAW,
+        reference: reference,
+        amount: amount,
+        currency: payload.currency,
+        status: TRANSACTION_STATUS.COMPLETED,
+        direction: TRANSACTION_DIRECTION.DEBIT,
+      };
+
+      await this.transactionUseCases.createTransaction(transactionData);
+
+      logger.info(
+        `Successfully withdrew ${amount} ${payload.currency} from user ${userId} wallet to account ${payload.account_number}`
+      );
+
+      return {
+        success: true,
+        message: "Withdrawal successful",
+        data: {
+          reference: reference,
+          amount: amount,
+          account_number: payload.account_number,
+          bank_code: payload.account_bank,
+          new_balance: newBalance,
+          flutterwave_id: transferResponse.data.id,
+        },
+      };
+    } catch (error: any) {
+      logger.error(`Error handling wallet withdrawal for user ID: ${userId}: ${error.message}`);
       throw error;
     }
   }

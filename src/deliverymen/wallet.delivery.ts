@@ -15,4 +15,11 @@ router
     walletHandler.handleWalletTransaction
   );
 
+router
+  .route("/withdraw")
+  .post(
+    [authService.auth, blacklistedMiddleware.handle],
+    walletHandler.handleWalletWithdrawal
+  );
+
 export default router;

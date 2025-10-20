@@ -19,3 +19,16 @@
 {"level":"\u001b[31merror\u001b[39m","message":"Error creating wallet for user ID: 4","timestamp":"2025-10-18 20:32:51"}
 {"level":"\u001b[31merror\u001b[39m","message":"Unhandled webhook event: charge.completed","timestamp":"2025-10-19 23:09:40"}
 {"level":"\u001b[31merror\u001b[39m","message":"Error creating transaction record: Error creating transactions: insert into `transactions` (`amount`, `currency`, `direction`, `reference`, `status`, `type`, `wallet_id`) values (100, 'NGN', 'credit', 'TXN_P7KGYRU28', 'successful', 'fund', 11) - Data truncated for column 'status' at row 1","timestamp":"2025-10-19 23:35:58"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave transfer error: Request failed with status code 400","timestamp":"2025-10-20 00:22:45"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave error response: {\"status\":\"error\",\"message\":\"This request cannot be processed. Please contact your account administrator\",\"data\":null}","timestamp":"2025-10-20 00:22:45"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal for user ID: 11: Request failed with status code 400","timestamp":"2025-10-20 00:22:45"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Request failed with status code 400","timestamp":"2025-10-20 00:22:45"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave transfer error: Request failed with status code 400","timestamp":"2025-10-20 00:25:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave error response: {\"status\":\"error\",\"message\":\"This request cannot be processed. Please contact your account administrator\",\"data\":null}","timestamp":"2025-10-20 00:25:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal for user ID: 11: Request failed with status code 400","timestamp":"2025-10-20 00:25:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Request failed with status code 400","timestamp":"2025-10-20 00:25:36"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave transfer error: Request failed with status code 400","timestamp":"2025-10-20 00:30:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave error response: {\"status\":\"error\",\"message\":\"This request cannot be processed. Please contact your account administrator\",\"data\":null}","timestamp":"2025-10-20 00:30:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal for user ID: 11: Request failed with status code 400","timestamp":"2025-10-20 00:30:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Request failed with status code 400","timestamp":"2025-10-20 00:30:34"}
+{"level":"\u001b[31merror\u001b[39m","message":"Unhandled webhook event: transfer.completed","timestamp":"2025-10-20 07:15:48"}
