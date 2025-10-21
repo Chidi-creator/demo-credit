@@ -21,7 +21,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-     "typescript": "^5.9.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.9.0",
     "@types/winston": "^2.4.4",
@@ -42,6 +41,7 @@
     "swagger-ui-express": "^5.0.1",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.3",
     "winston": "^3.18.3"
   },
   "devDependencies": {
