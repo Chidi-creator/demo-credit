@@ -1,12 +1,10 @@
-export interface InitiateTransferRequest {
+export interface InitiateWithdrawalRequest {
   account_bank: string; // Bank code
   account_number: string;
   amount: number;
-  narration: string;
+  narration?: string;
   currency: string;
   reference: string;
-  callback_url?: string;
-  debit_currency?: string;
 }
 
 export interface InitiateTransferResponse {
@@ -16,7 +14,8 @@ export interface InitiateTransferResponse {
     id: number;
     account_number: string;
     bank_code: string;
-    full_name: string;
+    bank_name: string;
+    fullname: string;
     created_at: string;
     currency: string;
     debit_currency: string;
@@ -26,9 +25,9 @@ export interface InitiateTransferResponse {
     reference: string;
     meta: any;
     narration: string;
+    approver: string;
     complete_message: string;
     requires_approval: number;
     is_approved: number;
-    bank_name: string;
   };
 }

@@ -6,7 +6,7 @@ export interface CreditWalletPayload {
 }
 
 export interface WithdrawToAccountPayload {
-    account_bank: string; // Bank code
+    bank_code: string; // Bank code
     account_number: string;
     amount: number;
     narration?: string;

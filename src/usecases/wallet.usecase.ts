@@ -54,6 +54,11 @@ async getWalletById(walletId: number): Promise<IWallet | undefined> {
       amount
     );
   }
+
+ async withdrawfromWallet(walletId: number, amount: number): Promise<void> {
+    return await this.walletRepository.withdrawfromWallet(walletId, amount);
+  }
+
 }
 
 export default WalletUseCases;

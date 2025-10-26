@@ -12,7 +12,7 @@ class TransactionHandler {
     this.transactionService = new TransactionService();
   }
 
-  handleDepositWebhook = async (req: Request, res: Response) => {
+  HandleWebhook = async (req: Request, res: Response) => {
     try {
       const signature = req.headers["verif-hash"] as string;
       const FLW_SECRET_HASH = env.FLUTTERWAVE_SECRET_HASH;
@@ -26,7 +26,7 @@ class TransactionHandler {
 
       console.log("Flutterwave Webhook Payload:", payload);
 
-      await this.transactionService.processDeposit(payload);
+      await this.transactionService.processWebhookEvent(payload);
       responseManager.success(
         res,
         {},

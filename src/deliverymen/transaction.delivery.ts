@@ -72,6 +72,6 @@ const transactionHandler = new TransactionHandler();
  *       500:
  *         $ref: '#/components/responses/500'
  */
-router.route("/webhook/flutterwave/deposit").post(transactionHandler.handleDepositWebhook);
+router.route("/webhook/flutterwave").post(transactionHandler.HandleWebhook);
 
 export default router;

@@ -47,7 +47,7 @@ class WalletHandler {
       }
 
       const result = await this.walletService.handleWalletWithdrawal(body, userId);
-      responseManager.success(res, result);
+      responseManager.success(res, result, "Withdrawal initiated successfully");
     } catch (error: any) {
       logger.error(`Error handling wallet withdrawal: ${error.message}`);
       responseManager.handleError(res, error);

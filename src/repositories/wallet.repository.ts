@@ -64,6 +64,14 @@ class WalletRepository extends BaseRepository<IWallet> {
       );
     }
   }
+
+  async withdrawfromWallet(walletId: number, amount: number): Promise<void> {
+    try {
+      await db(this.table).where({ id: walletId }).decrement("balance", amount);
+    } catch (error) {
+      throw new DatabaseError(`Error withdrawing from wallet: ${error}`);
+    }
+  }
 }
 
 export default WalletRepository;

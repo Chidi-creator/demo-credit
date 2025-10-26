@@ -13,7 +13,7 @@ export const validateCreditWalletPayload = (object: CreditWalletPayload) => {
 
 export const validateWithdrawToAccountPayload = (object: WithdrawToAccountPayload) => {
   const schema = joi.object({
-    account_bank: joi.string().required(),
+    bank_code: joi.string().required(),
     account_number: joi.string().required(),
     amount: joi.number().positive().required(),
     currency: joi.string().valid("NGN").required(),

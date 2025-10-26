@@ -218,14 +218,14 @@ describe('WalletService', () => {
       mockWalletUsecase.getWalletByUserId.mockResolvedValue(wallet);
       mockWalletUsecase.updateWalletBalance.mockResolvedValue(true);
       mockTransactionUseCases.createTransaction.mockResolvedValue({ id: 1 } as any);
-      (flutterwaveTransferProvider.initiateTransfer as jest.Mock).mockResolvedValue(transferResponse);
+      (flutterwaveTransferProvider.InitiateWithdrawal as jest.Mock).mockResolvedValue(transferResponse);
 
       // Execute
       const result = await walletService.handleWalletWithdrawal(payload, userId);
 
       // Assertions
       expect(mockWalletUsecase.getWalletByUserId).toHaveBeenCalledWith(userId);
-      expect(flutterwaveTransferProvider.initiateTransfer).toHaveBeenCalled();
+      expect(flutterwaveTransferProvider.InitiateWithdrawal).toHaveBeenCalled();
       expect(mockWalletUsecase.updateWalletBalance).toHaveBeenCalledWith(wallet.id, 500); // 1000 - 500
       expect(mockTransactionUseCases.createTransaction).toHaveBeenCalledWith(
         expect.objectContaining({

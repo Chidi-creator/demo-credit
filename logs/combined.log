@@ -1344,3 +1344,250 @@
 {"error":"connect ETIMEDOUT","level":"\u001b[31merror\u001b[39m","message":"Failed to start server","stack":"Error: connect ETIMEDOUT\n    at Connection._handleTimeoutError (C:\\Users\\HP\\Desktop\\demo-credit\\node_modules\\mysql2\\lib\\base\\connection.js:200:17)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)","timestamp":"2025-10-21 08:56:24"}
 {"error":"connect ETIMEDOUT","level":"\u001b[31merror\u001b[39m","message":"Failed to start server","stack":"Error: connect ETIMEDOUT\n    at Connection._handleTimeoutError (C:\\Users\\HP\\Desktop\\demo-credit\\node_modules\\mysql2\\lib\\base\\connection.js:200:17)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)","timestamp":"2025-10-21 08:58:12"}
 {"error":"connect ETIMEDOUT","level":"\u001b[31merror\u001b[39m","message":"Failed to start server","stack":"Error: connect ETIMEDOUT\n    at Connection._handleTimeoutError (C:\\Users\\HP\\Desktop\\demo-credit\\node_modules\\mysql2\\lib\\base\\connection.js:200:17)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)","timestamp":"2025-10-21 08:59:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 14:58:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 14:58:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 14:58:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 14:58:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave/deposit","timestamp":"2025-10-24 15:10:07"}
+{"level":"\u001b[31merror\u001b[39m","message":"Unhandled webhook event: transfer.completed","timestamp":"2025-10-24 15:10:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave/deposit","responseTime":85,"statusCode":200,"timestamp":"2025-10-24 15:10:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 15:10:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:12:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:12:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:12:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:12:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave/deposit","timestamp":"2025-10-24 15:21:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave/deposit","responseTime":6,"statusCode":404,"timestamp":"2025-10-24 15:21:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","timestamp":"2025-10-24 15:26:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Processing incoming transaction for user email: tyler.igwe@gmail.com","timestamp":"2025-10-24 15:26:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Crediting wallet for wallet ID: 11 with amount: 100","timestamp":"2025-10-24 15:26:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Current wallet balance: 15.00","timestamp":"2025-10-24 15:26:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"New wallet balance will be: 115","timestamp":"2025-10-24 15:26:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Wallet balance update result: true","timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Wallet balance updated successfully for wallet: 11","timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Creating transaction record for credit transaction: 11","timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction record created successfully for wallet: 11","timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","responseTime":1948,"statusCode":200,"timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 15:26:51"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:28:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:28:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:28:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:33:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:33:25"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:33:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:33:26"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:34:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:34:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:34:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:34:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","timestamp":"2025-10-24 15:38:57"}
+{"level":"\u001b[31merror\u001b[39m","message":"Unhandled webhook event: transfer.completed","timestamp":"2025-10-24 15:38:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","responseTime":21,"statusCode":200,"timestamp":"2025-10-24 15:38:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 15:38:57"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:46:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:46:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:46:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:46:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:47:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:47:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:47:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:47:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:48:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:48:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:48:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:48:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:49:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:49:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:49:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:49:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:57:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:57:16"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:57:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 15:59:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 15:59:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 15:59:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 15:59:23"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:08:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:08:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:08:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:08:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:10:33"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:10:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:10:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:10:34"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:11:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:11:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:11:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:11:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:13:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:13:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:13:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:13:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:19:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:19:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:19:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:19:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:34:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:34:21"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:34:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:34:22"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:36:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:36:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:36:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:36:17"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:40:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:40:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:40:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:40:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:47:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:47:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:47:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:47:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 16:51:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 16:51:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 16:51:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 16:51:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 17:12:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 17:12:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 17:12:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 17:12:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 17:14:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 17:14:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 17:14:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 17:14:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 17:25:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 17:25:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 17:25:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 17:25:55"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 17:33:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 17:33:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 17:33:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 17:33:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 17:34:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 17:34:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 17:34:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 17:34:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:22:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:22:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:22:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:22:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /auth/login","timestamp":"2025-10-24 19:25:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"GET /auth/login","responseTime":17,"statusCode":404,"timestamp":"2025-10-24 19:25:12"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-24 19:25:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":28,"statusCode":500,"timestamp":"2025-10-24 19:25:15"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-24 19:25:40"}
+{"duration":2834,"level":"\u001b[32minfo\u001b[39m","message":"Email: Your OTP Code to tyler.igwe@gmail.com - SENT","timestamp":"2025-10-24 19:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: SEND_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Performance: Send OTP Email took 3119ms","timestamp":"2025-10-24 19:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":3140,"statusCode":200,"timestamp":"2025-10-24 19:25:43"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-24 19:26:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - FAILED","timestamp":"2025-10-24 19:26:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: LOGIN_FAILED - tyler.igwe@gmail.com - FAILED","timestamp":"2025-10-24 19:26:00"}
+{"error":"Invalid OTP","level":"\u001b[31merror\u001b[39m","message":"Login failed for tyler.igwe@gmail.com","stack":"ValidationError: Invalid OTP\n    at AuthHandler.login (C:\\Users\\HP\\Desktop\\demo-credit\\src\\handlers\\auth.handler.ts:53:15)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-24 19:26:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":232,"statusCode":400,"timestamp":"2025-10-24 19:26:00"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","timestamp":"2025-10-24 19:26:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: VALIDATE_OTP - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:26:07"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /auth/login","responseTime":960,"statusCode":200,"timestamp":"2025-10-24 19:26:08"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:27:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:27:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:27:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:27:32"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:28:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":6,"statusCode":401,"timestamp":"2025-10-24 19:28:58"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:29:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:29:39"}
+{"level":"\u001b[32minfo\u001b[39m","message":"initiating withdrawal for user 11","timestamp":"2025-10-24 19:29:39"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal for user ID: 11: Insufficient balance in wallet","timestamp":"2025-10-24 19:29:40"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Insufficient balance in wallet","timestamp":"2025-10-24 19:29:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":814,"statusCode":500,"timestamp":"2025-10-24 19:29:40"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:30:27"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:30:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"initiating withdrawal for user 11","timestamp":"2025-10-24 19:30:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Making Flutterwave withdrawal request","request":{"account_bank":"044","account_number":"1232087278","amount":50,"currency":"NGN","reference":"DC11_1761330628412"},"timestamp":"2025-10-24 19:30:28"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave withdrawal error: Request failed with status code 400","timestamp":"2025-10-24 19:30:30"}
+{"level":"\u001b[31merror\u001b[39m","message":"Flutterwave error response: {\"status\":\"error\",\"message\":\"Amount must be above 100 for NGN.\",\"data\":null}","timestamp":"2025-10-24 19:30:30"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal for user ID: 11: Request failed with status code 400","timestamp":"2025-10-24 19:30:30"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Request failed with status code 400","timestamp":"2025-10-24 19:30:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":2724,"statusCode":500,"timestamp":"2025-10-24 19:30:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:30:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:30:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"initiating withdrawal for user 11","timestamp":"2025-10-24 19:30:44"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Making Flutterwave withdrawal request","request":{"account_bank":"044","account_number":"1232087278","amount":105,"currency":"NGN","reference":"DC11_1761330644939"},"timestamp":"2025-10-24 19:30:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Response status:","status":200,"timestamp":"2025-10-24 19:30:46"}
+{"data":{"data":{"account_number":"1232087278","amount":105,"bank_code":"044","bank_name":"Access Bank","complete_message":"","created_at":"2025-10-24T18:30:46.000Z","currency":"NGN","fee":10,"full_name":"CHIDIEBERE VITALIS CHIDIEBERE-IGWE","id":106208513,"is_approved":1,"meta":null,"narration":"From Chidi-One","reference":"DC11_1761330644939","requires_approval":0,"status":"NEW"},"message":"Transfer Queued Successfully","status":"success"},"level":"\u001b[32minfo\u001b[39m","message":"Response data:","timestamp":"2025-10-24 19:30:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":2193,"statusCode":200,"timestamp":"2025-10-24 19:30:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","timestamp":"2025-10-24 19:30:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","responseTime":18,"statusCode":200,"timestamp":"2025-10-24 19:30:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 19:30:56"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:35:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:35:18"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:35:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:35:19"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:36:52"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:36:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:36:53"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:37:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:37:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"initiating withdrawal for user 11","timestamp":"2025-10-24 19:37:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Making Flutterwave withdrawal request","request":{"account_bank":"044","account_number":"1232087278","amount":105,"currency":"NGN","reference":"DC11_1761331048911"},"timestamp":"2025-10-24 19:37:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Response status:","status":200,"timestamp":"2025-10-24 19:37:30"}
+{"data":{"data":{"account_number":"1232087278","amount":105,"bank_code":"044","bank_name":"Access Bank","complete_message":"","created_at":"2025-10-24T18:37:30.000Z","currency":"NGN","fee":10,"full_name":"CHIDIEBERE VITALIS CHIDIEBERE-IGWE","id":106208681,"is_approved":1,"meta":null,"narration":"From Chidi-One","reference":"DC11_1761331048911","requires_approval":0,"status":"NEW"},"message":"Transfer Queued Successfully","status":"success"},"level":"\u001b[32minfo\u001b[39m","message":"Response data:","timestamp":"2025-10-24 19:37:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":2454,"statusCode":200,"timestamp":"2025-10-24 19:37:30"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","timestamp":"2025-10-24 19:37:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Processing successful withdrawal for transaction DC11_1761331048911","timestamp":"2025-10-24 19:37:41"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction DC11_1761331048911 marked as COMPLETED and wallet updated","timestamp":"2025-10-24 19:37:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","responseTime":1003,"statusCode":200,"timestamp":"2025-10-24 19:37:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 19:37:42"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:43:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:43:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:43:10"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:43:11"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:46:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:46:49"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:46:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:46:50"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:50:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:50:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:50:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:50:54"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:54:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:54:04"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:54:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:54:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:54:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:54:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:54:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:54:47"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:56:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:56:28"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:56:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:56:29"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:56:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":30,"statusCode":401,"timestamp":"2025-10-24 19:56:38"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:57:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:57:03"}
+{"level":"\u001b[31merror\u001b[39m","message":"Error handling wallet withdrawal: Invalid request payload: \"account_bank\" is required","timestamp":"2025-10-24 19:57:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":417,"statusCode":400,"timestamp":"2025-10-24 19:57:03"}
+{"level":"\u001b[32minfo\u001b[39m","message":" MySQL database connected successfully","timestamp":"2025-10-24 19:58:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Connecting to Redis...","timestamp":"2025-10-24 19:58:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":" Redis connected successfully","timestamp":"2025-10-24 19:58:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Server is running on port 3078","timestamp":"2025-10-24 19:58:05"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","timestamp":"2025-10-24 19:59:35"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Auth: BLACKLISTED_ACCESS_CHECK - tyler.igwe@gmail.com - SUCCESS","timestamp":"2025-10-24 19:59:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"initiating withdrawal for user 11","timestamp":"2025-10-24 19:59:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Making Flutterwave withdrawal request","request":{"account_bank":"044","account_number":"1232087278","amount":105,"currency":"NGN","reference":"DC11_1761332376494"},"timestamp":"2025-10-24 19:59:36"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Response status:","status":200,"timestamp":"2025-10-24 19:59:37"}
+{"data":{"data":{"account_number":"1232087278","amount":105,"bank_code":"044","bank_name":"Access Bank","complete_message":"","created_at":"2025-10-24T18:59:38.000Z","currency":"NGN","fee":10,"full_name":"CHIDIEBERE VITALIS CHIDIEBERE-IGWE","id":106209453,"is_approved":1,"meta":null,"narration":"From Chidi-One","reference":"DC11_1761332376494","requires_approval":0,"status":"NEW"},"message":"Transfer Queued Successfully","status":"success"},"level":"\u001b[32minfo\u001b[39m","message":"Response data:","timestamp":"2025-10-24 19:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /wallets/withdraw","responseTime":2199,"statusCode":200,"timestamp":"2025-10-24 19:59:37"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","timestamp":"2025-10-24 19:59:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Processing successful withdrawal for transaction DC11_1761332376494","timestamp":"2025-10-24 19:59:45"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Transaction DC11_1761332376494 marked as COMPLETED and wallet updated","timestamp":"2025-10-24 19:59:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"POST /transactions/webhook/flutterwave","responseTime":1041,"statusCode":200,"timestamp":"2025-10-24 19:59:46"}
+{"level":"\u001b[32minfo\u001b[39m","message":"Request received from flutterwave","timestamp":"2025-10-24 19:59:46"}
